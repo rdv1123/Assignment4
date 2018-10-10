@@ -24,7 +24,7 @@ describe('Listings CRUD tests', function() {
       .end(function(err, res) {
         should.not.exist(err);
         should.exist(res);
-        res.body.should.have.length(146);
+        res.body.should.have.length(147);
         done();
       });
   });
